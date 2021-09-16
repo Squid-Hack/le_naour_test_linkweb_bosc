@@ -5,20 +5,41 @@ body{
 a{
     text-decoration: none;
     color: black;
+    transition: 0.2s;
+}
+
+a:hover{
+    color: #3a979a;
 }
 
 h1{
     font-size: 35px;
+    color: #3a979a;
 }
 
 p{
     font-weight: 300;
+    margin: 0;
+}
+
+button{
+    border: none;
+    background: #3a979a;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background: hsl(182, 45%, 22%);
 }
 
 /* IMG BACKGROUND HOME */
 
 .s1{
-    background-image: url(../img/air-conditioner-1185041_1920.jpg);
+    background-image: url(../img/img-air-conditioner.jpg);
     height: 100vh;
 }
 
@@ -26,7 +47,7 @@ p{
 
 header{
     padding: 5px 15px;
-    background-color: rgba(235, 164, 164, 0.438);
+    background-color: rgba(255, 255, 255, 0.609);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,11 +72,93 @@ header ul li a{
 /* INFO HOME PAGE */
 
 .home-info{
-    background-color: aqua;
-    width: 800px;
+    width: 50%;
+    padding: 20px;
+    margin-top: 120px;
+    align-items: center;
 }
 
 .home-info h1{
-    
-    
+    margin-bottom: 40px;
+}
+
+.home-info p{
+    line-height: 25px;
+}
+
+/* SECTION 2 */
+
+.s2 {
+    display: flex;
+    padding: 40px 20px;
+}
+
+.s2 .img-mitsubishi{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.s2 .img-mitsubishi img {
+    height: 400px;
+}
+
+.s2 .text-content{
+    margin: 40px 0;
+}
+
+.s2 .logo-mitsubishi img{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* SECTION 3 */
+
+.s3{
+    display: flex;
+    margin:30px 0px;
+    padding: 5px;
+}
+
+.s3 div{
+    padding: 25px;
+    width: 33%;
+    text-align: center;
+    background-color: #3a979a1f;
+    margin: 10px;
+}
+
+.s3 div p {
+    margin: 40px 0;
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    background: hsl(182, 45%, 12%);
+    color: white;
+    padding: 20px 150px;
+}
+
+footer div{
+    width: 50%;
+}
+.info-contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-contact .links{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.info-contact a{
+    color: white;
+    margin: 15px 3px;
 }
