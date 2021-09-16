@@ -133,7 +133,6 @@ header ul li a{
     margin: 40px 0;
 }
 
-
 /* FOOTER */
 
 footer{
@@ -146,12 +145,14 @@ footer{
 footer div{
     width: 50%;
 }
+
 .info-contact{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
+
 .info-contact .links{
     display: flex;
     align-items: center;
