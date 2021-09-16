@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-weight: 300;
+}
+
+/* IMG BACKGROUND HOME */
+
+.s1{
+    background-image: url(../img/air-conditioner-1185041_1920.jpg);
+    height: 100vh;
+}
+
+/* HEADER */
+
+header{
+    padding: 5px 15px;
+    background-color: rgba(235, 164, 164, 0.438);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a div img {
+    height: 100px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a{
+    margin-right: 20px;
+}
+
+/* INFO HOME PAGE */
+
+.home-info{
+    background-color: aqua;
+    width: 800px;
+}
+
+.home-info h1{
+    
+    
+}
